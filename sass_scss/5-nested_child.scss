@@ -3,7 +3,7 @@ $red: #FF0000;
 
 body {
   color: $darkgray;
-  > .red:first-child {
+  > .red {
       color: $red;
   }
 }
