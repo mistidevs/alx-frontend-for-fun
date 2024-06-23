@@ -1,0 +1,20 @@
+%info-shared {
+  font-size: 12px;
+}
+
+$green: #00FF00;
+$red: #FF0000;
+
+.info {
+  @extend %info-shared;
+}
+
+.success {
+  @extend %info-shared;
+  color: $green;
+}
+
+.warning {
+  @extend %info-shared;
+  color: $red;
+}
