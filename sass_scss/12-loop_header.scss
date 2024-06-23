@@ -1,5 +1,6 @@
-@for $i from 1 through 5  {
-  h#{i} {
-    font-size: #{$i}px;
+/* Using @for */
+@for $value from 1 through 5 {
+  h#{$value} {
+    font-size: $value + px;
   }
 }

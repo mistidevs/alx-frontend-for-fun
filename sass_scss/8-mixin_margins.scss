@@ -1,3 +1,4 @@
+/* Using @mixin */
 @mixin margin($fontsize: 10px) {
   margin-left: $fontsize;
   margin-right: $fontsize;

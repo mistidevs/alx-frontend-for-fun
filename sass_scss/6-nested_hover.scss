@@ -1,9 +1,11 @@
+/* Acessing the :hover pseudoclass */
 $red: #FF0000;
 $green: #00FF00;
 
 button {
-  color: $red;
-  :hover {
-    color: $green;
+  color: #FF0000;
+
+  &:hover {
+    color: #00FF00;
   }
 }
